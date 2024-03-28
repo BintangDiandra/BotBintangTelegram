@@ -23,7 +23,7 @@ RadarGempa.onText(gempa, async(callback) => {
     const {
         Infogempa : { 
             gempa: {
-                Jam, Magnitude, Tanggal, Wilayah, Potensi, Kedalaman, Shakemap
+                Jam, Magnitude, Tanggal, Wilayah, Potensi, Dirasakan,Kedalaman, Shakemap
             } 
         } 
     } = await apiCall.json()
@@ -33,6 +33,7 @@ Waktu: ${Tanggal} | ${Jam}
 Besaran: ${Magnitude}
 Wilayah: ${Wilayah}
 Potensi: ${Potensi}
+Dirasakan: ${Dirasakan}
 Kedalaman: ${Kedalaman}
 `
 
