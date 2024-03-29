@@ -30,7 +30,7 @@ RadarGempa.onText(easteregg, (callback) => {
 })
 
 RadarGempa.onText(sayHi, (callback) => {
-    RadarGempa.sendMessage(callback.from.id, "Halo, Saya adalah bot untuk mendeteksi gempa di Indonesia dengan menggunakan API resmi dari BMKG jika anda ingin melihat berita gempa anda bisa mengetik PROMPT /.gempa/ Terima-Kasih telah menggunakan bot simple ini.")
+    RadarGempa.sendMessage(callback.from.id, "Halo, Saya adalah bot untuk mendeteksi gempa di Indonesia dengan menggunakan API resmi dari BMKG jika anda ingin melihat informasi gempa anda bisa mengetik PROMPT /.gempa/ Terima-Kasih telah menggunakan bot simple ini.")
 })
 
 RadarGempa.onText(gempa, async (callback) => {
@@ -63,7 +63,7 @@ const cb = function(req, res) {
 
 try {
     if(process.env.PROD) {
-        bot.launch({
+        RadarGempa.launch({
             webhook: {
                 domain: `${process.env.URL}`,
                 port: `${process.env.PORT}`,
