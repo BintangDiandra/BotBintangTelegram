@@ -10,7 +10,7 @@ npm run bot
 ```
 Library Used
 -
-*Nodemon
+* Nodemon
 
 Source Dan Api : 
 -
