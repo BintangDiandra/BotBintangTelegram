@@ -1,10 +1,13 @@
 Simple Bot Telegram Untuk Mendeteksi Gempa 
 -
 
-Cara Pakai ? 🤔
+Cara Pakai ? 🤔 / How to use it?
 -
 
-* YNKTS Tanyakan Pak Jokowi 
+```Bash
+Node -v
+npm run bot
+```
 
 Source Dan Api : 
 -
