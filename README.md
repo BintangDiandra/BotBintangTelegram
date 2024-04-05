@@ -6,7 +6,9 @@ Cara Pakai ? 🤔 / How to use it?
 
 ```Bash
 Node -v
-npm run bot
+npm run bot (  "scripts": {
+    "bot": "nodemon main.js"
+  }, )
 ```
 Library Used
 -
