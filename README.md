@@ -6,7 +6,8 @@ Cara Pakai ? 🤔 / How to use it?
 
 ```Bash
 Node -v
-npm run bot 
+npm run bot
+```
 
 Source Dan Api : 
 -
