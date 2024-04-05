@@ -1,5 +1,6 @@
 Simple Bot Telegram Untuk Mendeteksi Gempa 
 -
+![Screenshot 2024-03-29 163143](https://github.com/BintangDiandra/BotBintangTelegram/assets/155343129/2219d060-ffdc-4dc5-901b-533079aad670)
 
 Cara Pakai ? 🤔 / How to use it?
 -
