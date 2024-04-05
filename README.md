@@ -1,6 +1,5 @@
 Simple Bot Telegram Untuk Mendeteksi Gempa 
 -
-<img src="https://github.com/BintangDiandra/BotBintangTelegram/capture/fotosample.png?raw=true" alt="foto sample" width="50%" />
 
 Cara Pakai ? 🤔 / How to use it?
 -
@@ -9,6 +8,9 @@ Cara Pakai ? 🤔 / How to use it?
 Node -v
 npm run bot
 ```
+Library Used
+-
+*Nodemon
 
 Source Dan Api : 
 -
