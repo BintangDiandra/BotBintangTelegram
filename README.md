@@ -1,6 +1,10 @@
 Simple Bot Telegram Untuk Mendeteksi Gempa 
 -
-![Screenshot 2024-03-29 163143](https://github.com/BintangDiandra/BotBintangTelegram/assets/155343129/2219d060-ffdc-4dc5-901b-533079aad670)
+Foto Sample = 
+<Br>
+<div align="center">
+        <img src="https://github.com/BintangDiandra/BotBintangTelegram/assets/155343129/2219d060-ffdc-4dc5-901b-533079aad670" alt="sample-foto" witdh="25%" weight="50%" />
+    </div>
 
 Cara Pakai ? 🤔 / How to use it?
 -
@@ -9,13 +13,15 @@ Cara Pakai ? 🤔 / How to use it?
 Node -v
 npm run bot
 ```
-Kenapa/why npm run bot ?
--
-<h1>Karena file Package.json menggunakan custom</h1>
+
+<h1>Kenapa/why npm run bot ? <Br> Karena file Package.json menggunakan custom pemanggilan "bot"</h1>
+
 ```Bash
+
 (  "scripts": {
     "bot": "nodemon main.js"
   }, )
+
 ```
 
 Library Used
